@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Cards(props) {
   let badgeText
-  if (props.openSpot === 0) {
+  if (props.carditem.openSpots === 0) {
     badgeText = "Offline"
   } else{
     badgeText = "Online"
